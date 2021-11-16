@@ -23,15 +23,19 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $HOME/powerleve
 ln -s "$HOME/zsh/.zshrc" $HOME/.zshrc
 
 PKGS=(
+'7-zip-bin'
 'autojump'
 'awesome-terminal-fonts'
-'brave-bin' # Brave Browser
+'balena-etcher'
 'dxvk-bin' # DXVK DirectX to Vulcan
+'fish-git'
 'github-desktop-bin' # Github Desktop sync
+'kotatogram-desktop-bin'
 'lightly-git'
 'lightlyshaders-git'
 'mangohud' # Gaming FPS Counter
 'mangohud-common'
+'microsoft-edge-stable-bin' # Edge Browser
 'nerd-fonts-fira-code'
 'nordic-darker-standard-buttons-theme'
 'nordic-darker-theme'
@@ -39,14 +43,26 @@ PKGS=(
 'nordic-theme'
 'noto-fonts-emoji'
 'papirus-icon-theme'
+'paru'
 'plasma-pa'
+'pycharm-community-eap'
 'ocs-url' # install packages from websites
+'qputty-qt5-git'
 'sddm-nordic-theme-git'
 'snapper-gui-git'
 'ttf-droid'
 'ttf-hack'
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
+'virtualbox-bin'
+'virtualbox-bin-guest-iso'
+'virtualbox-ext-oracle'
+'visual-studio-code-bin'
+'vlc-git'
+'vmware-workstation'
+'winscp'
+'wireshark-gtk2'
+'wps-office'
 'zoom' # video conferences
 'snap-pac'
 )
